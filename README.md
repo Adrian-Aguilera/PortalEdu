@@ -5,13 +5,13 @@ portal educativo para aulas vituales con django
 
 Clonar el repositorio 
 ```bash
-  git clone https://github.com/Adrian-Aguilera/EdulA-Engine.git
+  git clone https://github.com/Adrian-Aguilera/PortalEdu.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd /EdulA-Engine
+  cd /PortalEdu
 ```
 
 
