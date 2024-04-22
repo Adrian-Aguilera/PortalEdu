@@ -35,3 +35,9 @@ Ejecutar servidor
   python manage.py runserver
 ```
 
+
+Crear una aplicacion con dajngo 
+
+```bash
+  python manage.py startapp {name_app}
+```
