@@ -28,3 +28,16 @@ una vez instalado y corriendo la terminal del .venv, instalar las dependencias c
 ```bash
   pip install -r requirements.txt
 ```
+
+Ejecutar servidor
+
+```bash
+  python manage.py runserver
+```
+
+
+Crear una aplicacion con dajngo 
+
+```bash
+  python manage.py startapp {name_app}
+```
