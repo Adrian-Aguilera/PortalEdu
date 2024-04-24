@@ -28,3 +28,35 @@ una vez instalado y corriendo la terminal del .venv, instalar las dependencias c
 ```bash
   pip install -r requirements.txt
 ```
+
+
+## Deployment
+
+Ejecutar servidor
+
+```bash
+  python manage.py runserver
+```
+
+
+
+
+## Informacion Adicional
+
+Crear una aplicacion con django
+
+```bash
+  python manage.py startapp {name_app}
+```
+
+## Apps del proyecto
+
+#### Aplicaciones para la funcionalidad del proyecto
+
+
+| Nombre Apps | Funcionalidad     | Description                |
+| :-------- | :------- | :------------------------- |
+| `Clases` | `Administrador` | App principal para controlar las clases |
+| `Login` | `Inicio de sesion` | Inicio de sesion para acceder al panel |
+
+
