@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'clases',
+    #'clases',
     'login',
 ]
 
@@ -58,7 +58,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR, 'PortalEdu/templates'),
-            os.path.join(BASE_DIR, 'templates'),
+            #os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'login/templates'),
         ],
         'APP_DIRS': True,
@@ -127,7 +127,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'PortalEdu/static')
 
 #archivos estaticos por app
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'login/static')
+    os.path.join(BASE_DIR, 'login/static'),
+    #os.path.join(BASE_DIR, 'clases/static')
 ]
 
 
